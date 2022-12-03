@@ -1,0 +1,24 @@
+.menu{
+    display: flex;
+    height: 124px;
+    background: #1A1A1A;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.action-title{
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Jolly Lodger';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 110px;
+    line-height: 134px;
+    color: #FFA500;
+    
+    
+}
+
+.action-img{
+    margin-right: 10px;
+}
