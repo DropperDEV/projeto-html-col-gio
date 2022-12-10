@@ -9,9 +9,12 @@
 }
 
 .header-img{
-    margin-right: 800px;
+    margin-right: 32%;
 }
 
+.header-img:last-child{
+        margin-right: 48%;
+}
 .header-text{
 
     /* DIMENSÃO */
