@@ -1,0 +1,90 @@
+@media (max-width: 412px){
+    /*HEADER*/
+    .header-img{
+        position: relative;
+        width: 40px;
+        margin-right: 260px;
+    }
+    .header-text{
+        display: none;
+    }
+    .header-img-login{
+        margin-right: 40px;
+        margin-top: 20px;
+    }
+    .pesquisa{
+        width: 412px;
+        margin-left: 0;
+    }
+    #barra{
+        width: 412px;
+        margin-left: 5px;
+    }
+    #button{
+        position: absolute;
+        width: 44px;
+        height: 46px;
+        margin-top: 5%;
+        margin-left:85%;
+    }
+    /*ENTRY*/
+    #banner{
+        width: 412px;
+    }
+    #img-banner{
+        height: 500px;
+    }
+    #section{
+        display: flex;
+        flex-direction: column;
+    }
+    .sections{
+        width: 412px;
+        margin-bottom: 60px;
+    }
+    /*CATALOG*/
+    .placar{
+        margin: 15%;
+    }
+    .produto{
+        display: block;
+        width: 400px;
+        border-radius: 5%;
+
+        margin-bottom: 30px;
+    }
+    .div-product{
+        width: 412px;
+        margin: 0;
+        
+    }
+    /*FOOTER*/
+    .footer-box h2{
+        font-size: 30px;
+    }
+    .footer-box a{
+        font-size: 20px;
+    }
+    #footer{
+        flex-direction: column;
+        max-width: 430px;
+        justify-content: unset;
+        align-items: flex-start;
+    }
+    .main-footer{
+        width: 412px;
+        margin-right: 100px;
+        margin-left: 0px;
+    }
+    .footer-box img{
+        width: 400px;
+        margin-left: 0px;
+    }
+    .header-img:last-child{
+        align-items: center;
+        margin-right: 70%;
+    }
+
+}
+
+
