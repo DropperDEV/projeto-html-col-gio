@@ -11,13 +11,13 @@
 .placar-titulo{
 
     /*DIMENSÃO*/
+    display: flex;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 65px;
-    text-align: center;
-
+    flex-wrap: wrap;
     /*COR*/
     color: #FFFFFF;
 }

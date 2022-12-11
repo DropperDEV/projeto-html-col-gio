@@ -48,6 +48,7 @@
     /*CATALOG*/
     .placar{
         margin: 15%;
+        margin-left: 0;
     }
     .produto{
         display: block;
@@ -87,7 +88,6 @@
         align-items: center;
         margin-right: 70%;
     }
-
+    /*FORM*/
+    
 }
-
-

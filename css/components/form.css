@@ -61,6 +61,23 @@
 .input-form:-ms-input-placeholder { font-size: 16px; } /* internet explorer */
 .input-form:-moz-placeholder { font-size: 16px; }
 
+@media (min-width: 320px) and (max-width: 412px){
+    #form{
+        width: 100%;
+        margin: 0;
+    }
+    .input-form{
+        width: 50%;
+    }
+    .form-ico{
+        width: 20%;
+        margin-right: 50%;
+    }
+    .button{
+        padding: 10px 10px;
+    }
+}
+
 .button-center{
     text-align: center;
     margin: auto;
@@ -68,10 +85,7 @@
 }
 
 .button{
-    width: 612px;
-    height: 92px;
-    left: 657px;
-    top: 1111px;
+    padding: 10px 250px;
     margin-top: 60px;
     font-family: 'Noto Sans';
     font-style: normal;
