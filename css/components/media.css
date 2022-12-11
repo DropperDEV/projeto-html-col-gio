@@ -1,19 +1,21 @@
-@media (max-width: 412px){
+@media (min-width: 320px) and (max-width: 480px){
     /*HEADER*/
     .header-img{
         position: relative;
-        width: 40px;
-        margin-right: 260px;
+        width: 30px;
+        margin-right: 190px;
     }
     .header-text{
         display: none;
     }
     .header-img-login{
-        margin-right: 40px;
+        width: 60%;
+        margin-right: 0px;
+        margin-left: 50px;
         margin-top: 20px;
     }
     .pesquisa{
-        width: 412px;
+        width: 90;
         margin-left: 0;
     }
     #barra{
@@ -29,7 +31,7 @@
     }
     /*ENTRY*/
     #banner{
-        width: 412px;
+        width: 90%;
     }
     #img-banner{
         height: 500px;
@@ -39,8 +41,9 @@
         flex-direction: column;
     }
     .sections{
-        width: 412px;
+        width: 95%;
         margin-bottom: 60px;
+        margin-left: 0px;
     }
     /*CATALOG*/
     .placar{
@@ -48,13 +51,13 @@
     }
     .produto{
         display: block;
-        width: 400px;
+        width: 70%;
         border-radius: 5%;
-
+        margin-right: 10%;
         margin-bottom: 30px;
     }
     .div-product{
-        width: 412px;
+        width: 90%;
         margin: 0;
         
     }
@@ -77,7 +80,7 @@
         margin-left: 0px;
     }
     .footer-box img{
-        width: 400px;
+        width: 300%;
         margin-left: 0px;
     }
     .header-img:last-child{
