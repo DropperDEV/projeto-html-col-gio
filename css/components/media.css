@@ -89,5 +89,17 @@
         margin-right: 70%;
     }
     /*FORM*/
+    #form{
+        width: 100%;
+        margin: 0;
+        align-items: center;
+    }
+    .input-form{
+        width: 80%;
+    }
+    .form-ico{
+        width: 20%;
+        margin-right: 5%;
+    }
     
 }
