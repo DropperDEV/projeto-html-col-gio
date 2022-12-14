@@ -123,12 +123,13 @@
 }
 
 .bottom-text h3{
+    cursor: text;
     text-decoration: none;
     font-family: 'Noto Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
-    line-height: 44px;
+    line-height: 180%;
     display: flex;
     align-items: center;
 
